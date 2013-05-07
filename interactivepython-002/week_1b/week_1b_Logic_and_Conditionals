@@ -1,0 +1,59 @@
+##Video 1 - Logic and Conditionals
+
+In this video, one of the course teachers explains how to use logic and conditionals in python.
+
+###Links
+- [My tests](http://www.codeskulptor.org/#user12_IQBqpfPPlo_0.py)
+
+### Some issues about classes in video 1
+- Which of the following expressions evaluate to True?
+answer: not False, True or False and False or (not False)
+
+
+- Let x have the value 3. What gets printed as a result of running the following Python code?
+print x = 3
+answer: CodeSulptor throws an error
+
+##Video 2 - Conditionals
+In this video, one of the course teachers explains how to make for implement conditionals in python.
+
+### Links
+-[Example Conditional](http://www.codeskulptor.org/#examples-conditionals.py)
+-[Example Leap Year](http://www.codeskulptor.org/#examples-leap_year.py)
+
+### Some issues about classes in video 2
+-Which of the following are valid clauses in an if statement? 
+answer: if clause, elif cause and else cause.
+
+##Video 3 - Programming Tips
+
+In this video, one of the course teachers explains about some tips for avoid problems.
+
+### Links
+- [Examples Tips](http://www.codeskulptor.org/#examples_tips1.py)
+
+### Some issues about classes in video 3
+- Which of the following can result in a NameError?
+answer: Misspelled variable name, Misspelled function name and Missing import statement.
+
+- Which of the following can result in a AttributeError? 
+answer: Misspelled a constant or a call to a function in a module (the part after the period)
+Explanation: For example, misspelling a constant or a call to a function in random or math will cause an AttributeError.
+
+- Which of the following is the result of evaluating "5 - 2"? 
+answer: "5 - 2"
+Explanation: Remember that "5 - 2" is string since it is contained in double quotes. Evaluating a string just yields the string itself. Also, strings and numbers are different in Python.
+
+- Which of the following results in a SyntaxError?
+answer:print 5 + / 2, print x = y and x = x ==.
+
+- Where is the standard location to put a function's documentation string?
+answer: Immediately after the function's def, i.e., the first line of the function body
+Explanation: While syntactically legal elsewhere, convention places it at the beginning of the function.
+
+##Video 4 - Rock-paper-scissors-lizard-Spock
+
+In this video, one of the course teachers explains and help how to build a mini project Rock-paper-scissor-lizard-Spock. This is a game invented by Sheldon Cooper
+
+### Links
+- [Class Mini-Project](http://www.codeskulptor.org/#examples-rpsls_template.py)

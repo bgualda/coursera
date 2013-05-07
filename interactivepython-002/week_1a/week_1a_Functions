@@ -1,0 +1,36 @@
+#Notes - Week 1a - Functions
+
+
+##Video 1 - Functions
+
+
+In this video, one of the course teachers explains how to use functions in python.
+
+### Links
+- [Examples Functions](http://www.codeskulptor.org/#examples-functions.py)
+
+### Some issues about classes
+- In Python, what character indicates that an indented block of code is about to begin?
+answer: : "colon"
+
+- In Python, what statement causes a function to return a value?
+answer: return
+
+- If a Python function contains no return statements, what value does the function return?
+answer: none
+
+
+## Video 2 - Understanding evaluation
+
+
+In this video, one of the course teachers explain how to use Pystep. How Pystep it's possible
+have access 
+
+
+## Video 3 - More Operations
+
+
+### Links
+- [Examples Arithmetic Expressions](http://www.codeskulptor.org/#examples-arithmetic_expressions.py "")
+
+- [Examples Variables](http://www.codeskulptor.org/#examples-variables.py)
