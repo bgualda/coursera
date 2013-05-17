@@ -1,0 +1,47 @@
+##Video 1 - Event-Driven Programming
+
+In this video, one of the course teachers explains about event in python.
+
+Events - 
+	Input - Button, Text Box
+	Keyboard - key down, key up
+	Mouse - click, drag
+	Timer -
+
+Event Queue - defines whats command will first run
+
+###Links
+- [Example-Events](http://www.codeskulptor.org/#examples-events.py)
+
+### Some issues about classes in video 1
+What happens if you press a key and click the mouse at exactly the same time?
+answer:	One of the event handlers executes and the other waits in the event queue until the first handler finishes.
+explanation: You can't control the order that the system inserts events into the event queue and only one event handler executes at a time.
+
+
+##Video 2 - Local vs Global Variables
+
+In this video, one of the course teachers explains difference between local vs global variables and, when to use.
+
+###Links
+- [Example-Local_Global_Variables](http://www.codeskulptor.org/#examples-local_vs_global.py)
+
+### Some issues about classes in video 2
+What numbers does the following program print: 
+
+x = 3
+def f():
+    x = 4
+    print x
+f()
+print x
+
+answer: 4, 3
+
+##Video 3 - SimpleGUI
+
+In this video, one of the course teachers explains about SimpleGUI.
+
+###Links
+- [Example-SimpleGUI](http://www.codeskulptor.org/#examples-simplegui-0.py)
+- [MyExample](http://www.codeskulptor.org/#user13_VY3P9JJhvb_0.py)

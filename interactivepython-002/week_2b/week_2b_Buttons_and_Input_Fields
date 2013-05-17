@@ -1,0 +1,52 @@
+##Video 1 - Buttons
+
+###Links
+- [Example-Buttons](http://www.codeskulptor.org/#examples-buttons.py)
+
+### Some issues about classes in video 1
+When a user pushes a button, what argument is passed to the event handler?
+answer: Nothing (there are no arguments passed to the event handler for a button)
+
+##Video 2 - Input Fields
+
+###Links
+- [Example-Input_Fields](http://www.codeskulptor.org/#examples-input_fields.py)
+
+### Some issues about classes in video 2
+When does the event handler for an input field get called?
+answer: When you press Enter
+
+##Video 3 - Programming Tips
+
+###Links
+- [Example-Tips2](http://www.codeskulptor.org/#examples-tips2.py)
+
+### Some issues about classes in video 3
+What does this program print?
+
+a = 42
+def f():
+    a = 27
+    return a
+b = f()
+print a
+
+answer: 42
+explanation: The variable a is not declared global in f, so it does not affect the global a.
+
+What does this program print?
+
+def f(x):
+    y = x + 3
+y = f(4)
+print y
+answer: None
+
+Which expressions are the same as:
+
+a or b and c
+
+answer: a or (b and c), b and c or a
+
+##Video 4 - Guess the Number
+Constructor mini-project
