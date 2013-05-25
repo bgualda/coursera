@@ -1,0 +1,23 @@
+##Video 1 - Timers
+In this video, one of the course teachers explain about use timers in application.
+
+###Links
+- [Examples-Timers](http://www.codeskulptor.org/#examples-timers.py)
+
+### Some issues about classes in video 1
+How often does a timer event happen?
+answer: At the interval specified when you call simplegui.create_timer
+explanation: At the interval specified when you call simplegui.create_timer
+
+##Video 2 - Programming Tips
+
+###Links
+- [Examples-Events_Tips_3](http://www.codeskulptor.org/#examples-tips3-events.py)
+- [Examples_Tips_3](http://www.codeskulptor.org/#examples-tips3.py)
+
+### Some issues about classes in video 2
+If you see a white canvas and nothing works, what does it mean? 
+answer: Your forgot to start the frame.
+explanation: Always remember to start the frame and any timers in your program.
+
+##Video 3 - Stopwatch: The Game

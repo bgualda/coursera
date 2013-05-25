@@ -1,0 +1,35 @@
+##Video 1 - Canvas and Drawing
+In this video, one of the course teachers speech use canvas.
+
+###Links
+- [Example-Canvas_and_Drawing](http://www.codeskulptor.org/#examples-canvas_and_drawing.py)
+- [Example-Drawing](http://www.codeskulptor.org/#examples-drawing.py)
+
+### Some issues about classes in video 1
+On a SimpleGUI canvas of size 300 by 200 pixels, what is the pixel coordinate of the bottom right pixel?
+answer: 299, 199
+Explanation: On a 300 by 200 pixel canvas, the pixel coordinates range from 0, 0 in the top left to 299, 199 in the bottom right.
+
+
+##Video 2 - String Processing
+In this video, one of the course teachers explain about use of strings.
+
+###Links
+- [Example-String](http://www.codeskulptor.org/#examples-strings.py)
+- [Example-Money_0](http://www.codeskulptor.org/#examples-money-0.py)
+- [Example-Money_1](http://www.codeskulptor.org/#examples-money-1.py)
+
+### Some issues about classes in video 2
+If s1 is the string "Python is great!", which of the following expressions would be the string "Python"?
+answer: s1[:6], s1[0:6]
+explanation: String indices begin at 0. String slices start from the first index and go up to, but not including, the last index.
+
+##Video3 - Interactive Drawing
+
+###Links
+- [Example-Interactive_Drawing](http://www.codeskulptor.org/#examples-interactive_drawing.py)
+
+### Some issues about classes in video 3
+What handler should draw text on the canvas?
+answer: The draw handler.
+explanation: The canvas should always be drawn exclusively by the draw handler. No other code should try to update the canvas in any way.

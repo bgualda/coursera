@@ -1,0 +1,81 @@
+nro n=217
+dividido por 2 se o nro é par
+multiplica por 3 se o nro é ímpar
+
+
+#import
+import simplegui
+
+#global state
+iteration = 0
+max_iterations = 5
+result = 1
+current = 1
+
+#helper functions
+def init(value):
+    global n
+    n = value
+    print "Value n is: ", n
+
+def get_next():
+    global current
+    current = n
+
+    if current%2==0:
+        print "IF"
+        return current / 2
+    else:
+        return current * 3
+        
+    
+#timer
+def update():
+    global iteration, max_iterations, result
+    iteration += 1
+  if iteration >= max_iterations:
+        timer.stop()
+        print "Value is greater than: ", result
+    else:
+        
+        result = get_next()
+        current = result
+        print "Next value is: ", current
+        
+#register event handlers
+timer = simplegui.create_timer(1, update)
+
+init(217)
+timer.start()
+
+#count = 0
+#while (count < 9):
+#   print 'The count is:', count
+#   count = count + 1    
+
+
+http://www.codeskulptor.org/#user14_2wnUvCv77c_0.py
+http://www.codeskulptor.org/#user14_2wnUvCv77c_1.py
+
+import time
+
+x = time.time()
+y = x/(60*60*24*30*12)
+z = 2013-44
+
+print "seconds: ", x
+print "days: ",y
+print "year: ",z
+#1ano=12meses=365dias=8760horas=525600segundosy
+
+1
+2 = Have a global counter for the number of timer calls. In the timer handler, increment the counter. In the timer handler, check the count and possibly stop the timer. 
+3 = You can't. But, you can stop this timer, and start a new one with a different frequency and same handler. 
+timer.stop()
+timer = simplegui.create_timer(300, timer_handler)
+timer.start()
+4 = unlimeted
+5 = second
+6 = 1970
+7
+8 = 736
